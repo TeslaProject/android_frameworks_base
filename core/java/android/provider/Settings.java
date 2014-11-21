@@ -5011,6 +5011,12 @@ public final class Settings {
                 Global.WIFI_MOBILE_DATA_TRANSITION_WAKELOCK_TIMEOUT_MS;
 
         /**
+         * Whether to include options in power menu for rebooting into recovery and bootloader
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
+
+        /**
          * The number of milliseconds to hold on to a PendingIntent based request. This delay gives
          * the receivers of the PendingIntent an opportunity to make a new network request before
          * the Network satisfying the request is potentially removed.
@@ -5554,7 +5560,8 @@ public final class Settings {
             MOUNT_UMS_PROMPT,
             MOUNT_UMS_NOTIFY_ENABLED,
             UI_NIGHT_MODE,
-            SLEEP_TIMEOUT
+            SLEEP_TIMEOUT,
+            ADVANCED_REBOOT
         };
 
         /**
@@ -7946,5 +7953,6 @@ public final class Settings {
         return "android-" + Long.toHexString(androidId);
     }
 }
+
 
 
