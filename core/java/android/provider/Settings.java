@@ -2837,6 +2837,12 @@ public final class Settings {
         public static final String STATUS_BAR_CLOCK_DATE_COLOR = "status_bar_clock_date_color";
 
         /**
+         * Navigation bar button color
+         * @hide
+         */
+        public static final String NAVIGATION_BAR_TINT = "navigation_bar_tint";
+
+        /**
          * Battery status style on the status bar
          * 0 - Icon portrait
          * 1 - Icon landscape
