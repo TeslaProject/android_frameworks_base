@@ -358,7 +358,7 @@ public class SignalClusterView
             if (DEBUG) Log.d(TAG, String.format("mobile: %s sig=%d typ=%d",
                         (mMobileVisible ? "VISIBLE" : "GONE"), mMobileStrengthId, mMobileTypeId));
 
-            mMobileType.setVisibility(mMobileTypeId != 0 ? View.VISIBLE : View.GONE);
+            mMobileType.setVisibility(mMobileTypeId != 0 && mWifiVisible ? View.VISIBLE : View.GONE);
 
             return mMobileVisible;
         }
