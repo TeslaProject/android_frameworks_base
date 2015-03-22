@@ -3131,6 +3131,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
 
     @Override
     public void getInsetHintLw(WindowManager.LayoutParams attrs, Rect outContentInsets,
+            Rect outStableInsets) {
         final int fl = WindowManagerPolicyControl.getWindowFlags(null, attrs);
         final int sysuiVis = WindowManagerPolicyControl.getSystemUiVisibility(null, attrs);
         final int systemUiVisibility = (sysuiVis | attrs.subtreeSystemUiVisibility);
