@@ -3126,43 +3126,6 @@ public final class Settings {
          */
         public static final String QS_TEXT_COLOR = "qs_text_color";
 
-
-        /**
-         * Whether to show reboot in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_REBOOT = "power_menu_reboot";
-
-        /**
-         * Whether to show airplane mode in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_AIRPLANE = "power_menu_airplane";
-
-        /**
-         * Whether to show users in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_USERS = "power_menu_users";
-
-        /**
-         * Whether to show settings in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_SETTINGS = "power_menu_settings";
-
-        /**
-         * Whether to show lockdown in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_LOCKDOWN = "power_menu_lockdown";
-
-        /**
-         * Whether to show silent mode in power menu 
-         * @hide
-         */
-        public static final String POWER_MENU_SILENT = "power_menu_silent";
-
         /**
          * Control the type of rotation which can be performed using the accelerometer
          * if ACCELEROMETER_ROTATION is enabled.
@@ -7990,4 +7953,5 @@ public final class Settings {
         return "android-" + Long.toHexString(androidId);
     }
 }
+
 
