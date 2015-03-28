@@ -156,6 +156,7 @@ public class NavbarEditor implements View.OnTouchListener {
         for (int id : BUTTON_IDS) {
             mButtonViews.add((KeyButtonView) mParent.findViewById(id));
         }
+    }    
 
     public void setEditMode(boolean editMode) {
         mInEditMode = editMode;
