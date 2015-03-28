@@ -334,7 +334,6 @@ public class WindowManagerService extends IWindowManager.Stub
     int[] mCurrentProfileIds = new int[] {UserHandle.USER_OWNER};
 
     final Context mContext;
-    private Context mUiContext;
 
     final boolean mHaveInputMethods;
 
@@ -932,10 +931,6 @@ public class WindowManagerService extends IWindowManager.Stub
 
     public InputMonitor getInputMonitor() {
         return mInputMonitor;
-    }
-
-    private Context getUiContext() {
-        return mContext;
     }
 
     @Override
@@ -5644,12 +5639,6 @@ public class WindowManagerService extends IWindowManager.Stub
         synchronized (mWindowMap) {
             mCurrentProfileIds = currentProfileIds;
         }
-    }
-
-    // Called by window manager policy.  Not exposed externally.
-    @Override
-    public void reboot() {
-        ShutdownThread.reboot(getUiContext(), null, true);
     }
 
     public void setCurrentUser(final int newUserId, final int[] currentProfileIds) {
