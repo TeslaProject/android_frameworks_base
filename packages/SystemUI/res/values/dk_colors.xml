@@ -16,6 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Quick settings -->
-    <color name="qs_background_drawable_color">#FFFFFFFF</color>
-    <color name="visualizer_fill_color">#96FFFFFF</color>
+    <color name="qs_background_drawable_color">#FF33b5e5</color>
+    <color name="visualizer_fill_color">#9633b5e5</color>
 </resources>

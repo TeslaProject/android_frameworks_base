@@ -16,16 +16,16 @@
 
 <resources>
     <!-- Exposed resources for theming -->
-    <color name="exposed_bg_light">@android:color/black</color>
-    <color name="exposed_primary_text_light">#de000000</color>
-    <color name="exposed_secondary_text_light">#8a000000</color>
-    <color name="exposed_TextAppearance.Material.Notification.Parenthetical">#60000000</color>
-    <color name="exposed_system_panel_text_light">#FF808080</color>
-    <color name="exposed_TextAppearance.StatusBar.TextButton">#FFFFFFFF</color>
-    <color name="exposed_primary_text_dark">#ffffff</color>
-    <color name="exposed_secondary_text_dark">#b2ffffff</color>
-    <color name="exposed_button">#64ffffff</color>
-    <color name="exposed_TextAppearance_Network">#999999</color>
+    <color name="exposed_bg_light">#000000</color>
+    <color name="exposed_primary_text_light">#deffffff</color>
+    <color name="exposed_secondary_text_light">#8affffff</color>
+    <color name="exposed_TextAppearance.Material.Notification.Parenthetical">#60ffffff</color>
+    <color name="exposed_system_panel_text_light">#FFEEEEEE</color>
+    <color name="exposed_TextAppearance.StatusBar.TextButton">#FF000000</color>
+    <color name="exposed_primary_text_dark">#000000</color>
+    <color name="exposed_secondary_text_dark">#b2000000</color>
+    <color name="exposed_button">#64000000</color>
+    <color name="exposed_TextAppearance_Network">#EEEEEE</color>
     <color name="exposed_batt_text">#ffffff</color>
     <color name="exposed_kg_indication_text">#ffffff</color>
     <color name="exposed_kg_camera_button">#ffffffff</color>
